@@ -1,0 +1,42 @@
+h1 { 
+    color: red; 
+}
+
+.para2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: gray; 
+}
+
+#para3{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large; 
+    color: red; 
+}
+
+#div1{ 
+    width: 80px; 
+    height: 80px;
+    display: none; 
+    background-color: green;
+}
+#div2{ 
+    width: 80px; 
+    height: 80px;
+    display: none; 
+    background-color: black;
+}
+#div3{ 
+    width: 80px; 
+    height: 80px;
+    display: none; 
+    background-color: yellowgreen;
+}
+
+.btn_click{ 
+
+   border-radius: 25%;
+    background-color: yellow; 
+    padding: 10px 5xp 10px 5px;
+    box-shadow: 0 0 5xp 5xp rgba(0, 0, 0, 50);
+}
