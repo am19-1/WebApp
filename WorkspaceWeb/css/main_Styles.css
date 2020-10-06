@@ -119,8 +119,10 @@ section .imgBx img{
     opacity: 0;
     
 }
+
 .nav li{
     list-style: none;
+    margin: 5px;
 
 }
 .nav li a{
@@ -202,4 +204,65 @@ section .imgBx img{
    .nav.active{
        left: 0; 
    }
+
+
+   .nav li{ 
+       margin: 15px 50px; 
+   }
+
+
+   section{
+
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+section:before{ 
+
+clip-path: polygon(0 0, 100% 0 , 100% 10%, 0 26%)
+}
+
+
+section .content{ 
+    padding: 50px; 
+    margin-bottom: 30px;
+}
+section .content h2{ 
+    font-size: 1.5em;
+}
+
+
+section .content p{ 
+    font-size: 1em;
+}
+
+section .content a{ 
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+
+section .imgBx{ 
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-right: 0;
+   margin-top: 20px;
+}
+
+
+section .imgBx img{ 
+    max-width: 300px; 
+ }
+
+ .sci{
+     left: 50px;
+     bottom: 30px;
+    
+ }
+
+
+
 }
