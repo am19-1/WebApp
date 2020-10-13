@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevAnas Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header>
+        <div class="Logo">
+            <img src="" alt="">
+
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong> Anas Mohamed </strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> front-end dev </p>
+    </section>
+
+
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>"WordPress is a factory that makes webpages" is a core analogy designed to clarify the functions of
+                    WordPress: it stores content and enables a user to create and publish webpages, requiring nothing
+                    beyond a domain and a hosting service. WordPress has a web template system using a template
+                    processor.</p>
+            </div>
+            <!--/ service-->
+            <div class="service">
+                <h3>Front End Dev</h3>
+                <p>responsible for implementing visual and interactive elements that users engage with through their web
+                    browser when using a web application. They are usually supported by back-end web developers, who are
+                    responsible for server-side application logic and integration of the work front-end developers do.
+                </p>
+            </div>
+            <!--/ service-->
+            <div class="service">
+                <h3>Back End Dev</h3>
+                <p>responsible for writing the web services and APIs used by front-end developers and mobile application
+                    developers. A back-end web developer is responsible for server-side web application logic as well as
+                    the integration of the front-end part.</p>
+            </div>
+            <!--/ service-->
+        </div>
+        <!--/Services-->
+        <a href="work" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p> </p>
+            <p> </p>
+            <p> </p>
+        </div>
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle"></p>
+        <div class="portfolio">
+            <a href="#" class="portfolio__item">
+                <img src="" alt="">
+            </a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="mailto:hello@jane.dev" class="footer-link">hello@jane.dev</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://codepen.io">a</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="http://dribbble.com">b</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">c</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com">d</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+
+</html>
